@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/GuruCards/static/css/main.8801190b.css",
+    "main.js": "/GuruCards/static/js/main.908219ef.js",
+    "static/media/compare.svg": "/GuruCards/static/media/compare.57f3feaa355e864a307f8b42e8be81ce.svg",
+    "static/media/car.svg": "/GuruCards/static/media/car.d8fd5b02e8ffe3e8bbd0f992b762191f.svg",
+    "static/media/heart.svg": "/GuruCards/static/media/heart.786691a144081ce3aafb9d496866f544.svg",
+    "static/media/exclude.svg": "/GuruCards/static/media/exclude.c78a81c4f3f65fecb69adb2b35972789.svg",
+    "index.html": "/GuruCards/index.html",
+    "static/media/arrow.svg": "/GuruCards/static/media/arrow.6edcdb16b0a8c2dfec1332f3d9000841.svg",
+    "main.8801190b.css.map": "/GuruCards/static/css/main.8801190b.css.map",
+    "main.908219ef.js.map": "/GuruCards/static/js/main.908219ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8801190b.css",
+    "static/js/main.908219ef.js"
+  ]
+}
