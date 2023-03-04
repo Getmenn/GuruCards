@@ -8,7 +8,7 @@ const StyledLoader = styled.div<ILoader>`
     position: absolute;
     top: ${props => props.active ? '50%': 'unset'};
     left: ${props => props.active ? '50%' : 'unset'};
-    z-index: ${props => props.active ? '2' : 'unset'};;
+    z-index: ${props => props.active ? '3' : 'unset'};;
 `
 
 const StyledOverlay = styled.div`
@@ -20,7 +20,7 @@ const StyledOverlay = styled.div`
     width: 100%;
     height: 100%;
     background-color: rgba(1, 1, 1, 0.5);
-    z-index: 1;
+    z-index: 2;
 `
 
 const Loader: React.FC<ILoader> = ({ active }) => {
@@ -36,4 +36,4 @@ const Loader: React.FC<ILoader> = ({ active }) => {
     );
 };
 
-export default Loader;
+export {Loader};

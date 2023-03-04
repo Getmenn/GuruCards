@@ -8,7 +8,7 @@ import { SvgI } from "../../types/dats"
 const StyledCar = styled(Car)<SvgI>`
     cursor: pointer;
     *{
-        fill: ${seen => seen ? '#00A0AB' : 'unset'};
+        fill: ${props => props.seen ? '#00A0AB' : '#C7C7C7'};
     }
     &:hover{
         *{
@@ -18,6 +18,7 @@ const StyledCar = styled(Car)<SvgI>`
 `
 const StyledCompare = styled(Compare)`
     cursor: pointer;
+    z-index: 1;
     &:hover{
         *{
             fill: green;
@@ -27,7 +28,7 @@ const StyledCompare = styled(Compare)`
 const StyledExclude = styled(Exclude)<SvgI>`
     cursor: pointer;
     *{
-        fill: ${seen => seen ? '#00A0AB' : 'unset'};
+        fill: ${props => props.seen ? '#00A0AB' : '#C7C7C7'};
     }
         &:hover{
             *{
@@ -37,6 +38,7 @@ const StyledExclude = styled(Exclude)<SvgI>`
 `
 const StyledHeart = styled(Heart)`
     cursor: pointer;
+    z-index: 1;
         &:hover{
             *{
                 fill: green;
@@ -53,7 +55,7 @@ const CompareE: React.FC = () => {
     return <StyledCompare />
 }
 
-const ExcludeE: React.FC<SvgI> = (seen) => {
+const ExcludeE: React.FC<SvgI> = ({seen}) => {
     return <StyledExclude seen={seen} />
 }
 

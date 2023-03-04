@@ -4,7 +4,10 @@ import { IProduct } from "../types/dats"
 import { CardBox } from "./card/CardBox"
 import { Title } from "./card/Title"
 import { Flex } from "./flex/Flex"
-import Loader from "./loader/LoadingOverlay"
+import { Loader } from "./loader/LoadingOverlay"
+
+import arrow from "../assets/icons/arrow.svg"
+import { StyledSpan } from "./styled/styled"
 
 
 const Body: React.FC = () => {
@@ -47,10 +50,11 @@ const Body: React.FC = () => {
                 )} 
             </Flex>
             {loading !== true &&
-                <Flex margin="16px 0 0 0" width="100%" align="flex-end">
-                    <span onClick={() => hendleGetProducts()} style={{ color: '#00A0AB', cursor: 'pointer' }}>
-                        Показать еще
-                    </span>
+                <Flex margin="16px 0 0 0" width="100%" align="flex-end" derection="row" justify="flex-end">
+                    <StyledSpan onClick={() => hendleGetProducts()}>
+                        Показать еще 
+                    </StyledSpan>
+                    <img src={arrow} alt="arrow"/>
                 </Flex>
             }
         </Flex>

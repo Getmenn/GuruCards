@@ -84,13 +84,7 @@ const StyledFlex = styled.div<IFlex>`
         @media (max-width: 370px) {
             margin: -8px 0px 0px -23px
         }
-
     `}
-
-    
-
-    
-
     
 `
 
