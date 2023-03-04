@@ -1,24 +1,10 @@
-# Fool game
+# Еest task
 
-![](https://img.shields.io/npm/v/react?label=React&style=flat-square) ![](https://img.shields.io/npm/v/sass?label=sass&style=flat-square) ![](https://img.shields.io/npm/v/react-redux?label=React-redux&style=flat-square) ![](https://img.shields.io/npm/v/typescript?label=typescript&style=flat-square) :sunglasses:
+![](https://img.shields.io/npm/v/react?label=React&style=flat-square) ![](https://img.shields.io/npm/v/styled-components?label=styled-components&style=flat-square) ![](https://img.shields.io/npm/v/normalize.css?label=normalize.css&style=flat-square) ![](https://img.shields.io/npm/v/typescript?label=typescript&style=flat-square) ![](https://img.shields.io/npm/v/axios?label=axios&style=flat-square) :sunglasses:
 
-This project is made to test yourself and your skills. Perhaps it would have been better to use the localStorage, but for practice, TypeScript was chosen by Redux
-
-**The client part** 
-To play, click "New Game" in the upper left corner and try to win the opponent.
-
-## Screenshots
-
-![Game](https://github.com/Getmenn/foolGame/raw/master/src/components/images/readMe/game.jpg)
-
-### Victory
-<img src='https://github.com/Getmenn/foolGame/raw/master/src/components/images/readMe/gifVictory.gif' height=200px alt='victory'>
-
-### Defeat 
-<img src='https://github.com/Getmenn/foolGame/raw/master/src/components/images/readMe/gifDefeat.gif' height=200px alt='defeat'>
-
+All tasks are completed, the service is adapted to a width of 320px, the slider also works
 
 ## Site
 
-link: https://getmenn.github.io/foolGame/
+link: https://getmenn.github.io/GuruCards/
 
